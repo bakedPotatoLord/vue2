@@ -1,5 +1,5 @@
 <template>
-	<form action="/form">
+	<form action="/form" method='POST'>
 		<input type="text" v-model="text">
 		<input type="submit">
 	</form>
